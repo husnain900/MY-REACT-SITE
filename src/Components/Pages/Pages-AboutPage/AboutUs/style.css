@@ -1,0 +1,12 @@
+.AboutUS{
+    padding: 100px 0;
+}
+.about_us_left h5 {
+    font-size: 22px !important; 
+    font-weight: 500 !important;
+}
+.about_us_left h2 {
+    font-size: 40px;
+    line-height: 55px;
+    padding-top: 20px;
+} 

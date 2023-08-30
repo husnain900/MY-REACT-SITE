@@ -1,0 +1,17 @@
+.Cards {
+    padding: 100px 0;
+}
+.about_service_boxed h5 {
+    font-size: 20px I !important;
+    font-weight: 500 !important;
+    padding-top: 15px !important;
+}
+.about_service_boxed h5 a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0.1s;
+    outline: 0 !important;
+    color: var(--main-color);
+} 
+.about_service_boxed h5 a:hover {
+    color:black;
+}

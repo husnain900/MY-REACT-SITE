@@ -1,0 +1,96 @@
+.big-box {
+  background-color: #ffffff;
+  box-shadow: 4px 14px 28px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 30px 30px;
+  margin-top: -140px !important;
+  margin: 0 12px;
+}
+
+.banner-content {
+  margin-top: 225px;
+  height: 408px;
+}
+.banner-content h3 {
+  font-weight: 300;
+}
+.mini-box {
+  background: #8b3eea17;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.mini-box h4 {
+  font-size: 18px;
+}
+.mini-box span {
+  font-size: 12px;
+}
+.mini-box p {
+  font-size: 14px;
+  margin: 0;
+}
+.big-box .main-btn {
+  margin-top: 30px;
+}
+.icon {
+  font-size: 24px;
+}
+
+.btn-2 button {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.Journey_date input {
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  height: 35px;
+  padding: 0;
+}
+
+.box-btn button {
+  border: 1px solid #8b3eea;
+  color: black;
+  font-size: 18px;
+  /* font-weight: 300; */
+}
+button.btn.active {
+  background-color: #8b3eea !important;
+  border: 1px solid #8b3eea;
+  color: white;
+}
+.range_plan {
+  position: absolute;
+  left: -37px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.range_plan svg {
+  background: #f5eefd;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  line-height: 46px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  color: #8b3eea;
+}
+.btn-primary {
+  --bs-btn-bg: #8b3eea;
+  color: white !important;
+}
+/* Responsive  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .banner-content {
+    margin-top: 150px;
+    height: 100vh;
+  }
+  .banner-content h1 {
+    font-size: 52px !important;
+  }
+}

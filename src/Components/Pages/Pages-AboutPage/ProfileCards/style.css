@@ -1,0 +1,13 @@
+.profileCards {
+    padding: 100px 0;
+}
+.section_heading_center h2 {
+    font-size: 36px !important;
+    font-weight: 500 !important;
+}
+.counter_area_wrapper {
+    background: #FFFFFF;
+    box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.06), 8px 10px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    margin-top: -100px;
+}

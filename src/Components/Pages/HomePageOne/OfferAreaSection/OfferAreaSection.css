@@ -1,0 +1,75 @@
+.img-cards {
+  padding: 100px 0;
+}
+.card-adjust {
+  width: 697px !important;
+}
+
+.card-adjust2 {
+  width: 336px !important;
+}
+
+/* carsectionfour  */
+
+.offer_area_box {
+  position: relative;
+  height: 420px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.offer_area_content h2 {
+  color: white;
+  margin:0;
+  padding-bottom: 20px ;
+}
+.offer_area_content p {
+  color: white;
+  margin:0;
+  padding-bottom: 25px;
+}
+.offer_area_box .offer_area_content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 30px 27px;
+  z-index: 999;
+}
+.btn_md {
+  padding: 12px 35px !important;
+  font-size: 18px !important;
+}
+.btn_theme {
+  color: white !important;
+  background-color: #8b3eea !important;
+  transition: var(--transition);
+  box-shadow: none;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 0;
+  border: none;
+}
+.btn_theme:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border: none;
+  left: 50%;
+  width: 580px;
+  height: 550px;
+  margin: auto;
+  background: black;
+  border-radius: 50%;
+  z-index: -1;
+  transform-origin: top center;
+  transform: translateX(-50%) translateY(-5%) scale(0.4);
+  transition: var(--transition);
+}
+.btn_theme:hover:before {
+  transition: transform 1s;
+  transform: translateX(-50%) translateY(0) scale(1);
+  transform-origin: bottom center;
+  border: none;
+}

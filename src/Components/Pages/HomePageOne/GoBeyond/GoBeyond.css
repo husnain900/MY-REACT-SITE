@@ -1,0 +1,17 @@
+.card-sec-2 {
+    margin: 100px 0 ;
+}
+.heading_left_area h2 span {
+    display: inline-block;
+    border-bottom: 1px solid #8B3EEA;
+    padding-bottom: 10px;
+}
+
+.imagination_boxed h3 a {
+font-weight: 300;
+    color: #fff;
+    transition: .4s all ease-in-out;
+    text-align: center;
+    font-size: 24px; 
+    padding: 10px;
+}

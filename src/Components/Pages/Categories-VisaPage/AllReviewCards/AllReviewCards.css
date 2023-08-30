@@ -1,0 +1,19 @@
+h3.heading_theme {
+    font-size: 24px;
+}
+.all_review_date h5 {
+    font-size: 16px !important;
+}
+.all_review_star h5 {
+    font-size: 16px !important; 
+}
+.review_star_all svg {
+    font-size: 14px !important;
+    color: #8B3EEA !important;
+}
+.all_review_small_img_item h5 {
+    color: #8B3EEA;
+    cursor: pointer;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}

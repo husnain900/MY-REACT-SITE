@@ -1,0 +1,62 @@
+.Explore-Section {
+  padding-top: 100px;
+}
+.theme_common_box_two {
+  border-radius: 11px;
+  overflow: hidden;
+  border: 1px solid #d2d2d275;
+  transition: 0.4s all ease-in-out;
+  margin-bottom: 30px;
+}
+.theme_two_box_img {
+  overflow: hidden;
+  position: relative;
+}
+.theme_two_box_content {
+  background: #fff;
+  padding: 20px 15px;
+}
+.theme_two_box_content h4 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.theme_two_box_content p {
+  padding: 10px 0px;
+  font-size: 14px;
+}
+.theme_two_box_content h3 {
+  font-weight: 500;
+  font-size: 24px !important;
+}
+.theme_two_box_content p .review_rating {
+  color: #8b3eea;
+}
+.border-btn button {
+  padding: 8px 30px !important;
+  font-size: 17px;
+}
+
+.circle::before {
+  content: '50%';
+  position: absolute;
+  background-color: #fff;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  right: 9px;
+  bottom: -13px;
+  z-index: 9;
+  line-height: 45px;
+  border-radius: 50%;
+  margin-top: -30px;
+  color: #8b3eea;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .border-btn a {
+    padding: 0px 8px !important;
+  }
+}
